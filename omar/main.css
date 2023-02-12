@@ -1,0 +1,118 @@
+@import url("https: //fonts.googleapis.com/css2?family=Cairo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@500&display=swap");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: "poppins" , sans-serif;
+}
+body{
+    background-color: #eee;
+}
+.container{
+    position: relative;
+    display: flex;
+}
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    bottom: 0;
+    background-color: white;
+    width: 200px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+nav:hover{
+    /* transition: 0.5s; */
+    width: 250px;
+}
+.logo{
+    text-align: center;
+    display: flex;
+    margin: 0 0 0 10px;
+}
+.logo img{
+    width: 100%;
+    padding-right: 30px;
+}
+.nav-logo{
+    color: grey;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.logout{
+    position: absolute;
+    bottom: 15px;
+}
+li{
+    padding-bottom: 20px;
+}
+a{
+    position: relative;
+    color: rgb(24,97,231);
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+/* li:hover{
+    background-color: #eee;
+} */
+/* a:hover{
+    background-color: #eee;
+} */
+
+i{
+    position: relative;
+    top: 20px;
+}
+.nav-cap{
+    position: relative;
+    top: 20px;
+    margin-left: 10px;
+}
+nav .fa{
+    width: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* li{
+    text-align: center;
+} */
+/* a:hover i{
+    color: rgb(24,97,231);
+    transition: 0.5s;
+} */
+
+/* a{
+    position: relative;
+    color: rgb(24, 97, 231);
+    width: 100%;
+    font-size: 18px;
+    display: table; 
+    padding: 10px; 
+}
+nav .fa{
+    position: relative;
+    top: 20px;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+.nav-cap{
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    margin-left: 10px;
+}  */

@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+}
+
+.logo {
+    float: right;
+    padding-right: 15px;
+    width: 20%;
+}
+.logo img{
+    width: 100%;
+
+}
+
+.signup-box {
+    width: 340px;
+    height: 600px;
+    margin: auto;
+    background-color: white;
+    border-radius: 6px;
+    margin-top: 50px;
+}
+.login-box{
+    width: 340px;
+    height: 280px;
+    background-color: white;
+    margin: auto;
+    border-radius: 6px;
+    margin-top: 50px;
+}
+.ch-box {
+    margin-right: 2rem;
+}
+
+.forget {
+    position: relative; 
+}
+
+.forget a{
+    text-decoration: none;
+    color:royalblue;
+    font-size: .8rem;
+    position: absolute;
+    right: -20px;
+    
+}
+.forget:hover a{
+    text-decoration: underline;
+}
+
+.btn{
+    width: 100%;
+    height: 35px;
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    border: blue;
+    border-radius: 6px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label {
+    display: flex;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+
+input[type="button"] {
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+input[type="submit"] {
+    background-color: blue;
+    margin-top: 20px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer
+;}
+p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.pg{
+    margin-top: -10px;
+}
